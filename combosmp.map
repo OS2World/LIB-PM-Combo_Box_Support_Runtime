@@ -1,0 +1,34 @@
+
+ combosmp
+
+ Start     Length     Name                   Class
+ 0001:0000 0025CH     COMBOSMP_TEXT          CODE
+ 0001:025C 00531H     _TEXT                  CODE
+ 0001:078E 00000H     C_ETEXT                ENDCODE
+ 0002:0000 00042H     NULL                   BEGDATA
+ 0002:0042 001C8H     _DATA                  DATA
+ 0002:020A 0000EH     CDATA                  DATA
+ 0002:0218 00000H     XIB                    DATA
+ 0002:0218 00000H     XI                     DATA
+ 0002:0218 00000H     XIE                    DATA
+ 0002:0218 00000H     XPB                    DATA
+ 0002:0218 00000H     XP                     DATA
+ 0002:0218 00000H     XPE                    DATA
+ 0002:0218 00000H     XCB                    DATA
+ 0002:0218 00000H     XC                     DATA
+ 0002:0218 00000H     XCE                    DATA
+ 0002:0218 00000H     CONST                  CONST
+ 0002:0218 00008H     HDR                    MSG
+ 0002:0220 000FAH     MSG                    MSG
+ 0002:031A 00002H     PAD                    MSG
+ 0002:031C 00001H     EPAD                   MSG
+ 0002:031E 0000CH     _BSS                   BSS
+ 0002:032A 00000H     XOB                    BSS
+ 0002:032A 00000H     XO                     BSS
+ 0002:032A 00000H     XOE                    BSS
+ 0002:0330 02000H     STACK                  STACK
+
+ Origin   Group
+ 0002:0   DGROUP
+
+Program entry point at 0001:026C

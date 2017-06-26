@@ -1,0 +1,66 @@
+
+
+
+
+
+
+                           Combo Box Support Routines
+                           Dave Briccetti, 74475,1072
+                                January 28, 1990
+
+
+
+     The routines in COMBOSUP.C are used to  help set up combo boxes.  They
+     make it easy to add strings to the combo box's listbox,  and to select
+     the initial listbox item.
+
+     There are two routines provided:
+
+          InitComboBox -                takes  an  array  of   pointers  to
+                                        strings,  and  adds each  string to
+                                        the listbox
+
+          InitComboBoxFromRcStrings -   takes an array  of resource  string
+                                        identifiers,   loads  the   strings
+                                        corresponding  to  the identifiers,
+                                        and adds the strings to the listbox
+
+     Both of these  routines also  take a parameter  which specifies  which
+     listbox entry, if any, is to be selected initially.
+
+     These routines come compiled and linked into a DLL file, COMBOSUP.DLL.
+     Library  COMBOSUP.LIB  can  be  used  for  linking,  to   establish  a
+     connection to the routines in the DLL.
+
+     COMBOSMP.C  is a sample  program which uses the  two combo box support
+     routines.  It creates a standard window containing two combo boxes. It
+     initializes  one combo  box  with  InitComboBox,  and the  other  with
+     InitComboBoxFromRcStrings.
+
+     COMBOSMP comes compiled and  linked into COMBOSMP.EXE.  It  expects to
+     find COMBOSUP.DLL in the LIBPATH.
+
+     These programs may be used without any restrictions.
+
+     Dave Briccetti
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
